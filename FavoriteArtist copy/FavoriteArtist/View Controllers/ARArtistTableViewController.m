@@ -74,7 +74,7 @@
     if ([[segue identifier] isEqualToString:@"AddArtistSegue"]) {
         ARArtistDetailViewController *vc = [segue destinationViewController];
         vc.controller = self.controller;
-    } else if ([[segue identifier] isEqualToString:@""]) {
+    } else if ([[segue identifier] isEqualToString:@"ArtistDetailSegue"]) {
         ARArtistDetailViewController *vc = [segue destinationViewController];
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         vc.controller = self.controller;

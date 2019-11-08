@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Artist Table View Controller-->
+        <!--Artists-->
         <scene sceneID="dom-Yc-Ox3">
             <objects>
                 <tableViewController id="QUc-XU-4Ic" customClass="ARArtistTableViewController" sceneMemberID="viewController">
@@ -49,7 +49,7 @@
                             <outlet property="delegate" destination="QUc-XU-4Ic" id="Vf2-xF-jga"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="zmn-1B-Kdk">
+                    <navigationItem key="navigationItem" title="Artists" id="zmn-1B-Kdk">
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="YfR-lh-rWP">
                             <connections>
                                 <segue destination="HsA-V2-aGy" kind="show" identifier="AddArtistSegue" id="fwC-Ho-8GD"/>
